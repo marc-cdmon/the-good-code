@@ -7,7 +7,7 @@ You have been given a database `sales_db` with three tables: `products`, `custom
 ## Tasks
 
 1. **Schema Review and Optimization:**
-   - Review the existing schema provided in the `schema.sql` file. Identify and document any potential issues with the current design.
+   - Review the existing schema provided in the `test002_sales_db.sql` file. Identify and document any potential issues with the current design.
    - Propose improvements or redesigns that could enhance performance, scalability, or data integrity.
 
 2. **Query Development:**
