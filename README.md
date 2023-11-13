@@ -25,10 +25,7 @@ Your submission will be evaluated based on the following criteria:
 
 ## Submission Guidelines
 
-- Fork this repository.
-- Make your changes and commit them to your fork.
-- Submit a pull request to the original repository with a clear description of the changes made.
-- If necessary, include additional documentation in a separate file or within your pull request description.
+- This information does not need to be submited, will be part of a live evaluation.
 
 ## Time Limit
 
@@ -41,5 +38,4 @@ The code in this repository is provided for assessment purposes only and is not 
 ## Questions?
 
 If you have any questions or need clarification on the assessment, please contact the repository owner.
-
 Thank you for participating in our technical assessment. We look forward to your submission.
