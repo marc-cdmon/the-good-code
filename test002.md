@@ -36,10 +36,7 @@ Your solutions will be evaluated on the following:
 
 ## Submission Guidelines
 
-- Create a separate SQL script for each task.
-- Comment your SQL scripts to explain your reasoning and the steps you're taking.
-- Include a `README.md` with any additional explanations or assumptions you make.
-- Submit your solutions by pushing to your fork of the provided repository and opening a pull request.
+This information does not need to be submited, will be part of a live evaluation.
 
 ## Timeframe
 
