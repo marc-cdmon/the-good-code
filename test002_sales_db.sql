@@ -53,10 +53,11 @@ INSERT INTO customers (first_name, last_name, email, password) VALUES
 ('John', 'Smith', 'john.smith@example.com', 'password123');
 
 INSERT INTO orders (customer_id, order_date, total_amount, delivery_address, status) VALUES
-(1, NOW(), 49.98, '123 Main St, Anytown, USA', 'delivered'),
+(1, NOW(), 69,97, '123 Main St, Anytown, USA', 'delivered'),
 (1, DATE_SUB(NOW(), INTERVAL 3 DAY), 59.98, '123 Main St, Anytown, USA', 'delivered'),
-(2, DATE_SUB(NOW(), INTERVAL 2 MONTH), 39.99, '456 High St, Bigcity, USA', 'delivered'),
-(2, DATE_SUB(NOW(), INTERVAL 15 DAY), 29.99, '456 High St, Bigcity, USA', 'delivered');
+(2, DATE_SUB(NOW(), INTERVAL 2 MONTH), 119,97, '456 High St, Bigcity, USA', 'delivered'),
+(2, DATE_SUB(NOW(), INTERVAL 15 DAY), 59,98, '456 High St, Bigcity, USA', 'delivered'),
+(1, DATE_SUB(NOW(), INTERVAL 8 DAY), 169.93, '123 Main St, Anytown, USA', 'shipped');;
 
 INSERT INTO order_details (order_id, product_id, quantity, price_per_unit) VALUES
 (1, 1, 2, 19.99),
@@ -64,6 +65,8 @@ INSERT INTO order_details (order_id, product_id, quantity, price_per_unit) VALUE
 (2, 1, 3, 19.99),
 (2, 3, 1, 39.99),
 (3, 3, 3, 39.99),
-(4, 2, 2, 29.99);
+(4, 2, 2, 29.99),
+(5, 2, 3, 29.99),
+(5, 1, 4, 19.99);
 
 
