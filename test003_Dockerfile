@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 # Clone your repository (replace 'your-repo-url' with the actual repository URL)
 RUN apt-get update && apt-get install -y git
-RUN git clone https://github.com/sohamkamani/node-express-mongo-example /usr/src/app
+RUN git clone https://github.com/marc-cdmon/node-express-mongo-example /usr/src/app
 
 # Install any needed packages specified in package.json
 RUN npm install
