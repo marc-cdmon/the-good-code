@@ -6,7 +6,7 @@ Create a Docker container that runs a simple web application.
 ### Steps to Follow
 
 #### 1. Prepare a Basic Web Application Environment
-- The candidate should have a basic source code file ready for a web application (this could be an `index.js` file for a simple Node.js application or an `app.py` file for a Flask application in Python, for example).
+- clone this repo: https://github.com/sohamkamani/node-express-mongo-example.
 
 #### 2. Create a Dockerfile
 - The candidate should write a Dockerfile for this application. This should include:
