@@ -1,0 +1,20 @@
+# Seleccionar una imagen base
+FROM node:14
+
+# Crear un directorio para la aplicación
+WORKDIR /usr/src/app
+
+# Copiar los archivos de dependencias
+COPY package*.json ./
+
+# Instalar dependencias
+RUN npm install
+
+# Copiar los archivos de la aplicación
+COPY . .
+
+# Exponer el puerto que la aplicación utilizará
+EXPOSE 3000
+
+# Definir el comando para ejecutar la aplicación
+CMD [ "node", "index.js" ]
