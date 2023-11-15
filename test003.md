@@ -11,7 +11,7 @@ Create a Docker container that runs a simple web application.
 #### 2. Create a Dockerfile
 - The candidate should write a Dockerfile for this application. This should include:
   - Use provided test003_Dockerfile for node app
-  - Use provided test003_mongo_Dockerfile for MongoDB
+  - Use provided test003_mongo_docker-compose.yml for MongoDB
 
 #### 3. Build and Run the Docker Image
 - Using the command line, the candidate should build a Docker image from the Dockerfile.
