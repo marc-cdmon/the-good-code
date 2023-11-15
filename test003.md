@@ -6,7 +6,7 @@ Create a Docker container that runs a simple web application.
 ### Steps to Follow
 
 #### 1. Prepare a Basic Web Application Environment
-- clone this repo: [https://github.com/sohamkamani/node-express-mongo-example](https://github.com/marc-cdmon/node-express-mongo-example).
+- clone this repo: [https://github.com/marc-cdmon/node-express-mongo-example](https://github.com/marc-cdmon/node-express-mongo-example).
 
 #### 2. Create a Dockerfile
 - Use provided test003_Dockerfile for node app
